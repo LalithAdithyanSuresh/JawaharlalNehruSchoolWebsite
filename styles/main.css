@@ -16,12 +16,14 @@ body{
 }
 
 .body-container{
+    position: relative;
     max-width: var(--webpage_width);
     margin: 0 auto;
 }
 .navbar{
     /* background-color: var(--tert_color); */
     width:100%;
+    margin-bottom: 10px;
 }
 .navbar .top{
     /* background-color: var(--seco_color); */
@@ -84,8 +86,12 @@ body{
 
 
 .Hero_BackGround{
-    width:100vw;
+    position: absolute;
+    width:100%;
     height:100vh;
+}
+.Hero_BackGround img{
+    width:100%;
 }
 
 
@@ -106,3 +112,4 @@ body{
 .logo img{
     height: 100%;
 }
+
